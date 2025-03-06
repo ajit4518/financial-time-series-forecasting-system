@@ -1,0 +1,45 @@
+2025-03-07 00:46:45,719 - model_runner - INFO - Starting model training
+2025-03-07 00:46:45,721 - model_runner - ERROR - Error importing LSTM model: No module named 'lstm_model'
+2025-03-07 00:46:45,721 - model_runner - INFO - Trying alternative import...
+2025-03-07 00:46:45,722 - model_runner - INFO - Alternative import successful
+2025-03-07 00:46:45,723 - model_runner - INFO - Working with processed_dir: C:\Users\ \financial-time-series-forecasting-system\data\processed
+2025-03-07 00:46:45,723 - model_runner - INFO - Models will be saved to: C:\Users\ \financial-time-series-forecasting-system\models
+2025-03-07 00:46:45,727 - model_runner - INFO - Found 5 training data files
+2025-03-07 00:46:45,727 - model_runner - INFO - Training model for AAPL
+2025-03-07 00:46:45,728 - model_runner - INFO - Loading training data from C:\Users\ \financial-time-series-forecasting-system\data\processed\AAPL_train.parquet
+2025-03-07 00:46:45,826 - model_runner - INFO - Loading validation data from C:\Users\ \financial-time-series-forecasting-system\data\processed\AAPL_val.parquet
+2025-03-07 00:46:45,884 - model_runner - INFO - Creating LSTM model with input dim: 120
+2025-03-07 00:46:47,777 - model_runner - INFO - Starting training for AAPL
+2025-03-07 00:46:51,184 - model_runner - INFO - Model training completed for AAPL
+2025-03-07 00:46:51,185 - model_runner - INFO - Best validation loss: 18.196680
+2025-03-07 00:46:51,185 - model_runner - INFO - RMSE: 4.265757, MAE: 4.246619
+2025-03-07 00:46:51,185 - model_runner - INFO - Training model for AMZN
+2025-03-07 00:46:51,185 - model_runner - INFO - Loading training data from C:\Users\ \financial-time-series-forecasting-system\data\processed\AMZN_train.parquet
+2025-03-07 00:46:51,198 - model_runner - INFO - Loading validation data from C:\Users\ \financial-time-series-forecasting-system\data\processed\AMZN_val.parquet
+2025-03-07 00:46:51,231 - model_runner - INFO - Creating LSTM model with input dim: 120
+2025-03-07 00:46:51,233 - model_runner - INFO - Starting training for AMZN
+2025-03-07 00:46:58,612 - model_runner - ERROR - Error training model for AMZN: [Errno 2] No such file or directory: 'C:\\Users\\ \\financial-time-series-forecasting-system\\models\\lstm_model_20250307_004658.pt'
+2025-03-07 00:46:58,617 - model_runner - INFO - Training model for GOOGL
+2025-03-07 00:46:58,617 - model_runner - INFO - Loading training data from C:\Users\ \financial-time-series-forecasting-system\data\processed\GOOGL_train.parquet
+2025-03-07 00:46:58,634 - model_runner - INFO - Loading validation data from C:\Users\ \financial-time-series-forecasting-system\data\processed\GOOGL_val.parquet
+2025-03-07 00:46:58,671 - model_runner - INFO - Creating LSTM model with input dim: 120
+2025-03-07 00:46:58,673 - model_runner - INFO - Starting training for GOOGL
+2025-03-07 00:47:06,459 - model_runner - INFO - Model training completed for GOOGL
+2025-03-07 00:47:06,460 - model_runner - INFO - Best validation loss: 346392.416202
+2025-03-07 00:47:06,460 - model_runner - INFO - RMSE: 588.551086, MAE: 588.206604
+2025-03-07 00:47:06,460 - model_runner - INFO - Training model for META
+2025-03-07 00:47:06,461 - model_runner - INFO - Loading training data from C:\Users\ \financial-time-series-forecasting-system\data\processed\META_train.parquet
+2025-03-07 00:47:06,474 - model_runner - INFO - Loading validation data from C:\Users\ \financial-time-series-forecasting-system\data\processed\META_val.parquet
+2025-03-07 00:47:06,502 - model_runner - INFO - Creating LSTM model with input dim: 120
+2025-03-07 00:47:06,506 - model_runner - INFO - Starting training for META
+2025-03-07 00:47:14,540 - model_runner - ERROR - Error training model for META: [Errno 2] No such file or directory: 'C:\\Users\\ \\financial-time-series-forecasting-system\\models\\lstm_model_20250307_004714.pt'
+2025-03-07 00:47:14,542 - model_runner - INFO - Training model for MSFT
+2025-03-07 00:47:14,542 - model_runner - INFO - Loading training data from C:\Users\ \financial-time-series-forecasting-system\data\processed\MSFT_train.parquet
+2025-03-07 00:47:14,557 - model_runner - INFO - Loading validation data from C:\Users\ \financial-time-series-forecasting-system\data\processed\MSFT_val.parquet
+2025-03-07 00:47:14,586 - model_runner - INFO - Creating LSTM model with input dim: 120
+2025-03-07 00:47:14,589 - model_runner - INFO - Starting training for MSFT
+2025-03-07 00:47:17,606 - model_runner - INFO - Model training completed for MSFT
+2025-03-07 00:47:17,606 - model_runner - INFO - Best validation loss: 14.478945
+2025-03-07 00:47:17,606 - model_runner - INFO - RMSE: 3.805121, MAE: 3.791411
+2025-03-07 00:47:17,611 - model_runner - INFO - All model results saved to C:\Users\ \financial-time-series-forecasting-system\results\model_results_20250307_004717.csv
+2025-03-07 00:47:17,613 - model_runner - INFO - Model training completed

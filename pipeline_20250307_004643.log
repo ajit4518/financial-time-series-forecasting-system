@@ -1,0 +1,29 @@
+2025-03-07 00:46:43,190 - main_pipeline - INFO - Starting the time series forecasting pipeline
+2025-03-07 00:46:43,196 - main_pipeline - INFO - Successfully imported project modules
+2025-03-07 00:46:43,196 - main_pipeline - INFO - Working with project root: C:\Users\\financial-time-series-forecasting-system
+2025-03-07 00:46:43,197 - main_pipeline - INFO - Step 1: Data Collection
+2025-03-07 00:46:43,198 - main_pipeline - INFO - Loading existing data from C:\Users\\financial-time-series-forecasting-system\data\raw\market_data.csv
+2025-03-07 00:46:43,226 - main_pipeline - INFO - Data collected with shape: (9100, 7)
+2025-03-07 00:46:43,236 - main_pipeline - INFO - Step 2: Data Preprocessing
+2025-03-07 00:46:43,254 - main_pipeline - INFO - Data preprocessed with shape: (9100, 7)
+2025-03-07 00:46:43,254 - main_pipeline - INFO - Step 3: Feature Engineering
+2025-03-07 00:46:44,127 - main_pipeline - INFO - Features engineered with shape: (8105, 122)
+2025-03-07 00:46:44,127 - main_pipeline - INFO - Number of features created: 122
+2025-03-07 00:46:44,263 - main_pipeline - INFO - Featured data saved to C:\Users\\financial-time-series-forecasting-system\data\processed\featured_data_20250307_004644.parquet
+2025-03-07 00:46:44,263 - main_pipeline - INFO - Step 4: Preparing Data for Model Training
+2025-03-07 00:46:44,264 - main_pipeline - INFO - Preparing training data for AAPL
+2025-03-07 00:46:44,330 - main_pipeline - INFO - Saved training data for AAPL: (1296, 124) rows
+2025-03-07 00:46:44,331 - main_pipeline - INFO - Saved validation data for AAPL: (324, 124) rows
+2025-03-07 00:46:44,725 - main_pipeline - INFO - Preparing training data for AMZN
+2025-03-07 00:46:44,796 - main_pipeline - INFO - Saved training data for AMZN: (1296, 124) rows
+2025-03-07 00:46:44,796 - main_pipeline - INFO - Saved validation data for AMZN: (324, 124) rows
+2025-03-07 00:46:44,967 - main_pipeline - INFO - Preparing training data for GOOGL
+2025-03-07 00:46:45,018 - main_pipeline - INFO - Saved training data for GOOGL: (1296, 124) rows
+2025-03-07 00:46:45,018 - main_pipeline - INFO - Saved validation data for GOOGL: (324, 124) rows
+2025-03-07 00:46:45,186 - main_pipeline - INFO - Preparing training data for META
+2025-03-07 00:46:45,235 - main_pipeline - INFO - Saved training data for META: (1296, 124) rows
+2025-03-07 00:46:45,236 - main_pipeline - INFO - Saved validation data for META: (324, 124) rows
+2025-03-07 00:46:45,422 - main_pipeline - INFO - Preparing training data for MSFT
+2025-03-07 00:46:45,473 - main_pipeline - INFO - Saved training data for MSFT: (1296, 124) rows
+2025-03-07 00:46:45,473 - main_pipeline - INFO - Saved validation data for MSFT: (324, 124) rows
+2025-03-07 00:46:45,711 - main_pipeline - INFO - Pipeline completed successfully!

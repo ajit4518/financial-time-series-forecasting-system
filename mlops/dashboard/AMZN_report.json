@@ -1,0 +1,12 @@
+{
+    "symbol": "AMZN",
+    "model_id": "AMZN_lstm_20250307_004719",
+    "model_type": "lstm",
+    "created_at": "20250307_004719",
+    "metrics": {},
+    "retrain_recommended": false,
+    "drift_detected": false,
+    "plots": {
+        "performance": null
+    }
+}
